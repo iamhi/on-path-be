@@ -1,4 +1,4 @@
-package com.github.iamhi.onpath.onpath;
+package com.github.iamhi.onpath;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

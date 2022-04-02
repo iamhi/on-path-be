@@ -58,6 +58,7 @@ public record BudgetHandler(
 
     BudgetInputResponse createBudgetInputResponse(BudgetInputDTO budgetInputDTO) {
         return new BudgetInputResponse(
+            budgetInputDTO.uuid(),
             budgetInputDTO.income(),
             budgetInputDTO.stocks(),
             budgetInputDTO.crypto(),
